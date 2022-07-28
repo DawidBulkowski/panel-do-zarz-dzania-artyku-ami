@@ -1,0 +1,19 @@
+{
+    "name": "dawino/zadanie",
+    "authors": [
+        {
+            "name": "Dawid Bulkowski",
+            "email": "dawino@wp.pl"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+        "Repository\\": "repositories/",
+        "Models\\": "models/",
+        "App\\": "app/"
+      }
+    },
+    "require": {
+        "bramus/router": "~1.6"
+    }
+}
